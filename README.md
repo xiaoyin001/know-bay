@@ -70,6 +70,24 @@
 5. 菜鸟教程-JSON在线解析
    - https://www.jyshare.com/front-end/53/
 
+6. Goland官网
+   - https://www.jetbrains.com/go/
+
+7. Apifox官网
+   - https://apifox.com/
+
+8. Notepad++官网
+   - https://notepad-plus-plus.org/downloads/
+
+9. Everything官网
+   - https://www.voidtools.com/zh-cn/downloads/
+
+10. Lens官网（k8s集群管理工具）
+    - https://k8slens.dev/
+
+11. MongoDB官网
+    - https://www.mongodb.com/
+
 ***
 
 ### 游戏
@@ -77,17 +95,16 @@
 1. Epic游戏平台
    - https://store.epicgames.com/zh-CN/
 
+2. WeGame官网
+   - https://www.wegame.com.cn/home/
+
+3. Steam官网
+   - https://store.steampowered.com/
+
+4. 育碧（Ubisoft）官网
+   - https://store.ubisoft.com/cn/home
+
 ***
-
-### 开发
-
-1. MongoDB官网
-   - https://www.mongodb.com/
-
-
-
-
-
 
 
 
