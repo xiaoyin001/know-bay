@@ -88,6 +88,9 @@
 11. MongoDB官网
     - https://www.mongodb.com/
 
+12. 百度AI助手
+    - https://chat.baidu.com/
+
 ***
 
 ### 游戏
