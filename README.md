@@ -17,6 +17,9 @@
 
 3. Go语言中文网
    - https://studygolang.com/
+   - https://studygolang.com/pkgdoc
+   - https://studygolang.com/dl
+   - https://hao.studygolang.com/
 
 4. Kubernetes(k8s)官方文档
    - https://kubernetes.io/zh-cn/docs/home/
@@ -33,6 +36,33 @@
 
 2. 百度翻译
    - https://fanyi.baidu.com/
+
+***
+
+### 数据库
+
+1. MySQL官网
+   - https://www.mysql.com/
+   - https://dev.mysql.com/downloads/
+
+2. Redis官网
+   - https://redis.io/
+   - https://redis.io/downloads/
+
+3. MongoDB官网
+   - https://www.mongodb.com/
+   - https://www.mongodb.com/zh-cn/docs/v5.0/installation/
+
+***
+
+### IDE
+
+1. Goland官网
+   - https://www.jetbrains.com/go/
+   - https://www.jetbrains.com.cn/go/download/other.html
+
+2. Goland激活教程
+   - https://ziby0nwxdov.feishu.cn/wiki/OyLBwBd9oiVFTykXrHvcEB91nyb
 
 ***
 
@@ -70,8 +100,8 @@
 5. 菜鸟教程-JSON在线解析
    - https://www.jyshare.com/front-end/53/
 
-6. Goland官网
-   - https://www.jetbrains.com/go/
+6. 百度AI助手
+   - https://chat.baidu.com/
 
 7. Apifox官网
    - https://apifox.com/
@@ -83,13 +113,7 @@
    - https://www.voidtools.com/zh-cn/downloads/
 
 10. Lens官网（k8s集群管理工具）
-    - https://k8slens.dev/
-
-11. MongoDB官网
-    - https://www.mongodb.com/
-
-12. 百度AI助手
-    - https://chat.baidu.com/
+   - https://k8slens.dev/
 
 ***
 
