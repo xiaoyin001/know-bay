@@ -27,6 +27,9 @@
 5. Go相关的个人作者好文博客
    - https://before80.github.io/go_docs/
 
+6. Helm Chart 概述【看着就不错】
+   - https://www.boysec.cn/boy/f6e04248.html
+
 ***
 
 ### 翻译
