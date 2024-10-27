@@ -30,6 +30,12 @@
 6. Helm Chart 概述【看着就不错】
    - https://www.boysec.cn/boy/f6e04248.html
 
+7. k8s之MiniKube
+   - https://blog.csdn.net/qq_57414752/article/details/129675149
+   - https://blog.csdn.net/qq_44209563/article/details/134801099
+   - https://www.cnblogs.com/zpchcbd/p/18184207
+   - https://www.jianshu.com/p/2eb952ffe89b【Ubuntu安装】
+
 ***
 
 ### 翻译
