@@ -124,6 +124,9 @@
 10. Lens官网（k8s集群管理工具）
    - https://k8slens.dev/
 
+11. stern工具（k8s日志查看工具）
+   - https://github.com/stern/stern/releases
+
 ***
 
 ### 游戏

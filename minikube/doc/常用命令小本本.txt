@@ -1,0 +1,63 @@
+
+// 查看所有pod信息by namespace
+语法：kubectl get pods -n <namespace>
+示例：kubectl get pods -n xiaoyin
+
+// 查看指定pod信息
+语法：kubectl describe pod <pod-name> -n <namespace>
+示例：kubectl describe pod podname-64f649ccc8-vwqbm -n xiaoyin
+
+// 查看指定Pod日志
+// 通过"-f"参数可以实现实时跟踪并输出最新的日志信息
+// 日志一般都是用 stern 这个工具查看
+语法：kubectl logs <pod-name> -n <namespace> [-f]
+示例：kubectl logs gate-86bd87645c-jdf85 -n xiaoyin -f
+
+// 重启所有节点
+语法：kubectl rollout restart deployments -n <namespace>
+示例：kubectl rollout restart deployments -n xiaoyin
+
+// 重启某个pod
+语法：kubectl rollout restart deploy/<podName> -n <namespace>
+示例：kubectl rollout restart deploy/gate -n xiaoyin
+
+// 查看k8s中指定的 configMap
+语法：kubectl describe cm <configMapName>
+示例：kubectl describe cm avatar-config
+
+// 强制删除指定pod
+语法：kubectl delete pods <pod-name> --force -n <namespace>
+示例：kubectl delete pods gate-66cb6d7d79-95b8p --force -n xiaoyin
+
+// 查看当前上下文
+语法：kubectl config current-context
+示例：kubectl config current-context
+
+// 查看所有可用的上下文，也可以看到默认的namespace
+语法：kubectl config get-contexts
+示例：kubectl config get-contexts
+
+// 切换上下文
+语法：kubectl config use-context <context>
+示例：kubectl config use-context my-context
+
+// 切换命名空间，如果不知道直接重新设置一次，或者每次命令都带上也可以
+语法：kubectl config set-context --current --namespace=<namespace>
+示例：kubectl config set-context --current --namespace=avatar-skip
+
+// 部署
+语法：kubectl apply -f <指定的yaml文件>
+示例1：kubectl apply -f deploy/syncdtest/debug-service.yaml
+示例1：kubectl apply -f deploy/syncdtest/debug.yaml
+
+// 删除部署pod
+语法：kubectl delete deployment <podName> --namespace <namespace>
+示例：kubectl delete deployment debug --namespace syncdtest
+
+// 删除部署Service
+语法：kubectl delete service <service-name> -n <namespace>
+示例：kubectl delete service debug -n xiaoyin
+
+// 进入指定pod的命令交互
+语法：kubectl exec -it <pod-name> --namespace=<namespace> -- /bin/bash
+示例：kubectl exec -it gate-66cb6d7d79-95b8p --namespace=xiaoyin -- /bin/bash
