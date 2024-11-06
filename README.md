@@ -36,6 +36,9 @@
    - https://www.cnblogs.com/zpchcbd/p/18184207
    - https://www.jianshu.com/p/2eb952ffe89b【Ubuntu安装】
 
+8. Uber Go 语言编码规范
+   - https://github.com/xxjwxc/uber_go_guide_cn
+
 ***
 
 ### 翻译
