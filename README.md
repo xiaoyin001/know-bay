@@ -130,6 +130,12 @@
 11. stern工具（k8s日志查看工具）
    - https://github.com/stern/stern/releases
 
+12. 正则学习网站
+   - https://regexr-cn.com
+
+12. 正则表达式可视化工具
+   - https://regex-vis.com
+
 ***
 
 ### 游戏
