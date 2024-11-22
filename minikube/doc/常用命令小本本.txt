@@ -1,4 +1,8 @@
 
+// 在minikube中创建自己的namespace
+语法：kubectl create namespace <namespace>
+示例：kubectl create namespace xiaoyin
+
 // 查看所有pod信息by namespace
 语法：kubectl get pods -n <namespace>
 示例：kubectl get pods -n xiaoyin
@@ -61,3 +65,16 @@
 // 进入指定pod的命令交互
 语法：kubectl exec -it <pod-name> --namespace=<namespace> -- /bin/bash
 示例：kubectl exec -it gate-66cb6d7d79-95b8p --namespace=xiaoyin -- /bin/bash
+
+// 创建一个私有镜像仓库的凭证
+kubectl create secret docker-registry ali-image-secret \
+  --docker-server=registry.cn-shanghai.aliyuncs.com \
+  --docker-username=YOUR_USERNAME \
+  --docker-password=YOUR_PASSWORD \
+  --namespace=xiaoyin
+
+// 查看镜像仓库的凭证
+kubectl get secrets --namespace=xiaoyin
+
+// 删除镜像仓库的凭证
+kubectl delete secret ali-image-secret --namespace=xiaoyin

@@ -1,0 +1,51 @@
+
+前期准备：需要有一个ubuntu22.04虚拟机环境、安装docker、安装kubectl、安装minikube、安装make、安装git、安装语言包（我这里是golang）、安装docker-compose
+
+
+1、使用 make 命令将代码编译成二进制文件
+
+
+2、继续使用 make 命令将我们刚才编译好的二进制文件打包到制定的 docker 镜像中，并且将这个镜像推送到自己的阿里云镜像仓库中
+
+
+3、还是使用 make 命令将刚才推送到仓库的镜像部署到 minikube 集群中指定的 namespace 中
+
+在minikube中创建自己的namespace
+kubectl create ns xiaoyin
+
+查看minikube中的namespace
+kubectl get ns
+
+将刚才创建的namespace设置为默认的
+kubectl config set-context --current --namespace=xiaoyin
+
+然后开始部署，在部署的时候如果拉取的是私有仓库的镜像，如果没有访问的权限，还需要先让集群能够有访问权限
+这个存在于某个命名空间下的
+kubectl create secret docker-registry ali-image-secret \
+  --docker-server=registry.cn-shanghai.aliyuncs.com \
+  --docker-username=YOUR_USERNAME \
+  --docker-password=YOUR_PASSWORD \
+  --namespace=xiaoyin
+
+正式部署
+kubectl apply -f deploy/testapp-deploy.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
