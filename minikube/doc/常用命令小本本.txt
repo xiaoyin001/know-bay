@@ -76,5 +76,9 @@ kubectl create secret docker-registry ali-image-secret \
 // 查看镜像仓库的凭证
 kubectl get secrets --namespace=xiaoyin
 
+// 查看镜像仓库的凭证内容详情（以JSON格式显示）
+语法：kubectl get secret <secretName> --namespace=<namespace> -o jsonpath="{.data.\.dockerconfigjson}" | base64 --decode
+示例：kubectl get secret ali-image-secret --namespace=xiaoyin -o jsonpath="{.data.\.dockerconfigjson}" | base64 --decode
+
 // 删除镜像仓库的凭证
 kubectl delete secret ali-image-secret --namespace=xiaoyin
