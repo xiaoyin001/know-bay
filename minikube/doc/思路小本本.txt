@@ -31,10 +31,13 @@ kubectl create secret docker-registry ali-image-secret \
 kubectl apply -f deploy/testapp-deploy.yaml
 
 
+4、使用命令部署一个server，然后集群内部的pod中运行的程序，能够互相通讯
 
 
+5、在集群中部署MongoDB、Redis、MySQL并在程序中进行增删改查的测试
 
 
+6、外部将请求打到集群内部指定的pod中，然后pod中的程序将请求转发到指定的服务中
 
 
 

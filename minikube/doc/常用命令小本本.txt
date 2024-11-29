@@ -82,3 +82,11 @@ kubectl get secrets --namespace=xiaoyin
 
 // 删除镜像仓库的凭证
 kubectl delete secret ali-image-secret --namespace=xiaoyin
+
+// 集群server端口本地转发
+语法： kubectl port-forward svc/<service-name> <local-port>:<service-port> -n <namespace>
+示例： kubectl port-forward svc/gate 9041:9041 -n xiaoyin
+
+// 集群Pod端口本地转发
+语法： kubectl port-forward <podName> <localPort>:<podPort> -n <namespace>
+示例： kubectl port-forward gate-8597f75c75-d2p7w 9041:9041 -n xiaoyin
