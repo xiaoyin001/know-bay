@@ -39,6 +39,9 @@
 8. Uber Go 语言编码规范
    - https://github.com/xxjwxc/uber_go_guide_cn
 
+9. Redis 的美妙文章
+   - https://javaguide.cn/database/redis/redis-skiplist.html#%E8%B7%B3%E8%A1%A8%E5%9C%A8-redis-%E4%B8%AD%E7%9A%84%E8%BF%90%E7%94%A8
+
 ***
 
 ### 翻译
@@ -154,7 +157,11 @@
 
 ***
 
+### 开源库
 
+1. Go语言实现的异步定时任务队列
+   - https://github.com/hibiken/asynq
 
-
+2. Go语言实现的专注于RPC的网络库
+   - https://github.com/cloudwego/netpoll
 
