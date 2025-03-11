@@ -165,3 +165,6 @@
 2. Go语言实现的专注于RPC的网络库
    - https://github.com/cloudwego/netpoll
 
+3. go语言分布式键值存储etcd
+   - https://github.com/etcd-io/etcd
+
