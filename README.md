@@ -168,3 +168,14 @@
 3. go语言分布式键值存储etcd
    - https://github.com/etcd-io/etcd
 
+4. go实现的彩色控制台输出
+   - https://github.com/fatih/color
+
+5. go实现控制台的shell能力
+   - https://github.com/abiosoft/ishell
+
+6. go实现的解析proto文件
+   - https://github.com/emicklei/proto
+
+7. go实现的protoc-gen
+   - https://github.com/lyft/protoc-gen-star
