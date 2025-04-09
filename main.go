@@ -1,7 +1,8 @@
 package main
 
-import twosum "xy/leetcode/top-100-liked/hash/1-two-sum"
+import movezeroes "xy/leetcode/top-100-liked/hash/283-move-zeroes"
 
 func main() {
-	twosum.TwoSumTest()
+	// twosum.TwoSumTest()
+	movezeroes.MoveZeroesTest()
 }
