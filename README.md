@@ -45,6 +45,9 @@
 10. 设计模式与Go
    - https://refactoringguru.cn/design-patterns/go
 
+11. Raft 分布式共识算法动画
+   - http://www.kailing.pub/raft/index.html
+
 ***
 
 ### 翻译
