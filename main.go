@@ -1,9 +1,10 @@
 package main
 
-import findallanagramsinastring "xy/leetcode/top-100-liked/sliding-window/438-find-all-anagrams-in-a-string"
+import subarraysumequalsk "xy/leetcode/top-100-liked/substring/560-subarray-sum-equals-k"
 
 func main() {
 	// twosum.TwoSumTest()
 	// movezeroes.MoveZeroesTest()
-	findallanagramsinastring.FindAnagramsTest()
+	// findallanagramsinastring.FindAnagramsTest()
+	subarraysumequalsk.SubarraySumTest()
 }
