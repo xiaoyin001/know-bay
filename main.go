@@ -1,8 +1,9 @@
 package main
 
-import movezeroes "xy/leetcode/top-100-liked/double-point/283-move-zeroes"
+import findallanagramsinastring "xy/leetcode/top-100-liked/sliding-window/438-find-all-anagrams-in-a-string"
 
 func main() {
 	// twosum.TwoSumTest()
-	movezeroes.MoveZeroesTest()
+	// movezeroes.MoveZeroesTest()
+	findallanagramsinastring.FindAnagramsTest()
 }
