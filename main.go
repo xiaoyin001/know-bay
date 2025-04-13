@@ -1,10 +1,13 @@
 package main
 
-import subarraysumequalsk "xy/leetcode/top-100-liked/substring/560-subarray-sum-equals-k"
+import (
+	mergeintervals "xy/leetcode/top-100-liked/merge-intervals"
+)
 
 func main() {
 	// twosum.TwoSumTest()
 	// movezeroes.MoveZeroesTest()
 	// findallanagramsinastring.FindAnagramsTest()
-	subarraysumequalsk.SubarraySumTest()
+	// subarraysumequalsk.SubarraySumTest()
+	mergeintervals.MergeTest()
 }
