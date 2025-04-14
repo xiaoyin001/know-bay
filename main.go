@@ -1,7 +1,7 @@
 package main
 
 import (
-	mergeintervals "xy/leetcode/top-100-liked/merge-intervals"
+	setmatrixzeroes "xy/leetcode/top-100-liked/matrix/set-matrix-zeroes"
 )
 
 func main() {
@@ -9,5 +9,6 @@ func main() {
 	// movezeroes.MoveZeroesTest()
 	// findallanagramsinastring.FindAnagramsTest()
 	// subarraysumequalsk.SubarraySumTest()
-	mergeintervals.MergeTest()
+	// mergeintervals.MergeTest()
+	setmatrixzeroes.SetZeroesTest()
 }
