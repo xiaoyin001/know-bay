@@ -1,8 +1,6 @@
 package main
 
-import (
-	setmatrixzeroes "xy/leetcode/top-100-liked/matrix/set-matrix-zeroes"
-)
+import reverselinkedlist "xy/leetcode/top-100-liked/linked-list/reverse-linked-list"
 
 func main() {
 	// twosum.TwoSumTest()
@@ -10,5 +8,6 @@ func main() {
 	// findallanagramsinastring.FindAnagramsTest()
 	// subarraysumequalsk.SubarraySumTest()
 	// mergeintervals.MergeTest()
-	setmatrixzeroes.SetZeroesTest()
+	// setmatrixzeroes.SetZeroesTest()
+	reverselinkedlist.ReverseListTest()
 }
