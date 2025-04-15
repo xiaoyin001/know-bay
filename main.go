@@ -1,8 +1,6 @@
 package main
 
-import (
-	invertbinarytree "xy/leetcode/top-100-liked/binary-tree/invert-binary-tree"
-)
+import binarytreelevelordertraversal "xy/leetcode/top-100-liked/binary-tree/102-binary-tree-level-order-traversal"
 
 func main() {
 	// twosum.TwoSumTest()
@@ -12,5 +10,5 @@ func main() {
 	// mergeintervals.MergeTest()
 	// setmatrixzeroes.SetZeroesTest()
 	// reverselinkedlist.ReverseListTest()
-	invertbinarytree.LevelOrderTest()
+	binarytreelevelordertraversal.LevelOrderTest()
 }

@@ -1,4 +1,4 @@
-package invertbinarytree
+package binarytreelevelordertraversal
 
 import "fmt"
 
@@ -23,6 +23,12 @@ import "fmt"
 树中节点数目在范围 [0, 2000] 内
 -1000 <= Node.val <= 1000
 */
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func LevelOrderTest() {
 	mRootNode := &TreeNode{
