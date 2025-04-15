@@ -29,7 +29,7 @@ type TreeNode struct {
 }
 
 func InvertTreeTest() {
-
+	invertTree(nil)
 }
 
 func invertTree(root *TreeNode) *TreeNode {
