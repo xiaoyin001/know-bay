@@ -1,6 +1,8 @@
 package main
 
-import binarytreelevelordertraversal "xy/leetcode/top-100-liked/binary-tree/102-binary-tree-level-order-traversal"
+import (
+	numberofislands "xy/leetcode/top-100-liked/graph-theory/200-number-of-islands"
+)
 
 func main() {
 	// twosum.TwoSumTest()
@@ -10,5 +12,6 @@ func main() {
 	// mergeintervals.MergeTest()
 	// setmatrixzeroes.SetZeroesTest()
 	// reverselinkedlist.ReverseListTest()
-	binarytreelevelordertraversal.LevelOrderTest()
+	// binarytreelevelordertraversal.LevelOrderTest()
+	numberofislands.NumIslandsTest()
 }
