@@ -1,7 +1,7 @@
 package main
 
 import (
-	numberofislands "xy/leetcode/top-100-liked/graph-theory/200-number-of-islands"
+	validparentheses "xy/leetcode/top-100-liked/stack/20-valid-parentheses"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 	// setmatrixzeroes.SetZeroesTest()
 	// reverselinkedlist.ReverseListTest()
 	// binarytreelevelordertraversal.LevelOrderTest()
-	numberofislands.NumIslandsTest()
+	// numberofislands.NumIslandsTest()
+	validparentheses.IsValidTest()
 }
