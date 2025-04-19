@@ -1,7 +1,7 @@
 package main
 
 import (
-	courseschedule "xy/leetcode/top-100-liked/graph-theory/207-course-schedule"
+	searcha2dmatrix "xy/leetcode/top-100-liked/binary-search/74-search-a-2d-matrix"
 )
 
 func main() {
@@ -16,5 +16,6 @@ func main() {
 	// numberofislands.NumIslandsTest()
 	// validparentheses.IsValidTest()
 	// lettercombinationsofaphonenumberv.LetterCombinationsTest()
-	courseschedule.CanFinishTest()
+	// courseschedule.CanFinishTest()
+	searcha2dmatrix.SearchMatrixTest()
 }
