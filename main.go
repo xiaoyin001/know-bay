@@ -1,7 +1,7 @@
 package main
 
 import (
-	lettercombinationsofaphonenumberv "xy/leetcode/top-100-liked/backtrack/17-letter-combinations-of-a-phone-numberv"
+	courseschedule "xy/leetcode/top-100-liked/graph-theory/207-course-schedule"
 )
 
 func main() {
@@ -15,5 +15,6 @@ func main() {
 	// binarytreelevelordertraversal.LevelOrderTest()
 	// numberofislands.NumIslandsTest()
 	// validparentheses.IsValidTest()
-	lettercombinationsofaphonenumberv.LetterCombinationsTest()
+	// lettercombinationsofaphonenumberv.LetterCombinationsTest()
+	courseschedule.CanFinishTest()
 }
