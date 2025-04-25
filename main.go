@@ -1,7 +1,7 @@
 package main
 
 import (
-	pascalstriangle "xy/leetcode/top-100-liked/dynamic-programming/118-pascals-triangle"
+	houserobber "xy/leetcode/top-100-liked/dynamic-programming/198-house-robber"
 )
 
 func main() {
@@ -21,5 +21,6 @@ func main() {
 	// kthlargestelementinanarray.FindKthLargestTest()
 	// jumpgame.CanJumpTest()
 	// besttimetobuyandsellstock.MaxProfitTest()
-	pascalstriangle.GenerateTest()
+	// pascalstriangle.GenerateTest()
+	houserobber.RobTest()
 }
