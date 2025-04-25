@@ -1,6 +1,8 @@
 package main
 
-import kthlargestelementinanarray "xy/leetcode/top-100-liked/pile-up/215-kth-largest-element-in-an-array"
+import (
+	jumpgame "xy/leetcode/top-100-liked/greedy-algorithm/55-jump-game"
+)
 
 func main() {
 	// twosum.TwoSumTest()
@@ -16,5 +18,6 @@ func main() {
 	// lettercombinationsofaphonenumberv.LetterCombinationsTest()
 	// courseschedule.CanFinishTest()
 	// searcha2dmatrix.SearchMatrixTest()
-	kthlargestelementinanarray.FindKthLargestTest()
+	// kthlargestelementinanarray.FindKthLargestTest()
+	jumpgame.CanJumpTest()
 }
