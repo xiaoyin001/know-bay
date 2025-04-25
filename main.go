@@ -1,7 +1,7 @@
 package main
 
 import (
-	jumpgame "xy/leetcode/top-100-liked/greedy-algorithm/55-jump-game"
+	besttimetobuyandsellstock "xy/leetcode/top-100-liked/greedy-algorithm/121-best-time-to-buy-and-sell-stock"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	// courseschedule.CanFinishTest()
 	// searcha2dmatrix.SearchMatrixTest()
 	// kthlargestelementinanarray.FindKthLargestTest()
-	jumpgame.CanJumpTest()
+	// jumpgame.CanJumpTest()
+	besttimetobuyandsellstock.MaxProfitTest()
 }
