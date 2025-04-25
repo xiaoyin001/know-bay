@@ -1,7 +1,7 @@
 package main
 
 import (
-	besttimetobuyandsellstock "xy/leetcode/top-100-liked/greedy-algorithm/121-best-time-to-buy-and-sell-stock"
+	pascalstriangle "xy/leetcode/top-100-liked/dynamic-programming/118-pascals-triangle"
 )
 
 func main() {
@@ -20,5 +20,6 @@ func main() {
 	// searcha2dmatrix.SearchMatrixTest()
 	// kthlargestelementinanarray.FindKthLargestTest()
 	// jumpgame.CanJumpTest()
-	besttimetobuyandsellstock.MaxProfitTest()
+	// besttimetobuyandsellstock.MaxProfitTest()
+	pascalstriangle.GenerateTest()
 }
