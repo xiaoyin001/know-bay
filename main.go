@@ -1,7 +1,7 @@
 package main
 
 import (
-	houserobber "xy/leetcode/top-100-liked/dynamic-programming/198-house-robber"
+	minimumpathsum "xy/leetcode/top-100-liked/multidimensional-dynamic-programming/64-minimum-path-sum"
 )
 
 func main() {
@@ -22,5 +22,6 @@ func main() {
 	// jumpgame.CanJumpTest()
 	// besttimetobuyandsellstock.MaxProfitTest()
 	// pascalstriangle.GenerateTest()
-	houserobber.RobTest()
+	// houserobber.RobTest()
+	minimumpathsum.MinPathSumTest()
 }
