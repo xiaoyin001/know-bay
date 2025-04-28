@@ -1,7 +1,7 @@
 package main
 
 import (
-	minimumpathsum "xy/leetcode/top-100-liked/multidimensional-dynamic-programming/64-minimum-path-sum"
+	sortcolors "xy/leetcode/top-100-liked/skill/75-sort-colors"
 )
 
 func main() {
@@ -23,5 +23,6 @@ func main() {
 	// besttimetobuyandsellstock.MaxProfitTest()
 	// pascalstriangle.GenerateTest()
 	// houserobber.RobTest()
-	minimumpathsum.MinPathSumTest()
+	// minimumpathsum.MinPathSumTest()
+	sortcolors.SortColorsTest()
 }
