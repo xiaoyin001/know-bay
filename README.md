@@ -145,6 +145,20 @@
 12. 正则表达式可视化工具
    - https://regex-vis.com
 
+13. AI导航
+   - https://www.jyshare.com/ai/
+
+14. Tabby  终端命令行工具 简洁
+   - https://tabby.sh/
+   - https://blog.csdn.net/Xminyang/article/details/124516865
+
+15. WindTerm  终端命令行工具 界面功能多 个人更倾向
+   - https://github.com/kingToolbox/WindTerm/releases
+   - https://cloud.tencent.com/developer/article/2210454?policyId=1003
+
+16. FinalShell  终端命令行工具 可视化服务性能监控
+   - https://www.hostbuf.com/
+
 ***
 
 ### 游戏
@@ -185,3 +199,6 @@
 
 7. go实现的protoc-gen
    - https://github.com/lyft/protoc-gen-star
+
+8. 基于Golang的轻量级并发服务器框架
+   - https://github.com/aceld/zinx
